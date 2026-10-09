@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="الموقع الشخصي لأحمد فوزي — نبذة، الخدمات، الأعمال وطرق التواصل.">
+  <title>Ahmed Fawzy | الموقع الشخصي</title>
+  <style>
+    :root{--bg:#0b0b10;--panel:#14141d;--text:#f7f7fb;--muted:#b6b5c5;--accent:#b69cff;--accent2:#7d5ce7;--line:#2a2936}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at 85% 0%,#292044 0,transparent 35%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1100px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:#0b0b10eF;border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 0}
+    .brand{font-size:1.2rem;font-weight:800;direction:ltr;white-space:nowrap}.brand span{color:var(--accent)}
+    .links{display:flex;gap:20px;flex-wrap:wrap;font-size:.92rem;color:var(--muted)}
+    .links a:hover{color:var(--accent)}
+    .hero{padding:92px 0 76px;display:grid;grid-template-columns:1.3fr .7fr;align-items:center;gap:44px}
+    .eyebrow{color:var(--accent);font-weight:700;letter-spacing:.04em}
+    h1{font-size:clamp(2.4rem,6vw,4.7rem);line-height:1.2;margin:14px 0 20px;letter-spacing:-.04em}
+    h1 span{color:var(--accent)}
+    .lead{font-size:1.12rem;color:var(--muted);max-width:620px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 20px;border-radius:12px;font-weight:700;border:1px solid var(--line);transition:.2s}
+    .btn.primary{background:linear-gradient(135deg,var(--accent),#8d72ee);color:#171321;border:0}
+    .btn:hover{transform:translateY(-2px)}
+    .visual{min-height:300px;border:1px solid #3a3151;border-radius:28px;background:linear-gradient(145deg,#201b31,#111119 68%);display:grid;place-items:center;position:relative;overflow:hidden}
+    .orb{width:190px;height:190px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#e3d9ff,#9e80f5 38%,#5036a0 70%);box-shadow:0 0 90px #8f70ee66;display:grid;place-items:center;color:#171321;font-size:3.2rem;font-weight:900}
+    .visual:after{content:"PERSONAL PORTFOLIO";position:absolute;bottom:22px;left:0;right:0;text-align:center;color:#aaa0c8;font-size:.75rem;letter-spacing:.22em;direction:ltr}
+    section{padding:66px 0}
+    .section-head{margin-bottom:28px}
+    .section-head small{color:var(--accent);font-weight:700}
+    h2{font-size:clamp(1.7rem,4vw,2.5rem);margin:5px 0}
+    .sub{color:var(--muted);margin:0;max-width:700px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{background:linear-gradient(160deg,#181821,#111118);border:1px solid var(--line);border-radius:18px;padding:24px}
+    .icon{width:46px;height:46px;display:grid;place-items:center;border-radius:13px;background:#30264b;color:var(--accent);font-size:1.35rem;margin-bottom:15px}
+    .card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0}
+    .about{display:grid;grid-template-columns:.7fr 1.3fr;gap:25px;align-items:stretch}
+    .about-label{border-radius:20px;background:linear-gradient(145deg,#2b2243,#14131c);border:1px solid #3b3152;padding:28px;display:flex;flex-direction:column;justify-content:center}
+    .about-label strong{font-size:2rem;color:var(--accent);direction:ltr}
+    .about-copy{border:1px solid var(--line);border-radius:20px;padding:28px;background:#111118}
+    .about-copy p{color:var(--muted);margin-bottom:0}
+    .work-note{border:1px dashed #49405f;border-radius:18px;padding:25px;color:var(--muted);background:#111118}
+    .contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+    .contact-box{padding:28px;border:1px solid var(--line);background:#14141d;border-radius:20px}
+    .contact-box p{color:var(--muted)}
+    footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.9rem}
+    .footer-row{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding:58px 0}.visual{min-height:230px}.orb{width:145px;height:145px;font-size:2.5rem}.grid{grid-template-columns:1fr}.about,.contact{grid-template-columns:1fr}.links{gap:12px;font-size:.82rem}nav{align-items:flex-start;flex-direction:column}section{padding:48px 0}}
+  </style>
+</head>
+<body>
+<header>
+  <nav class="wrap">
+    <a class="brand" href="#home">Ahmed Fawzy<span>.</span></a>
+    <div class="links">
+      <a href="#about">من أنا</a><a href="#services">الخدمات</a><a href="#work">الأعمال</a><a href="#contact">تواصل معي</a>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="wrap hero" id="home">
+    <div>
+      <div class="eyebrow">أهلًا بيك في موقعي الشخصي</div>
+      <h1>أفكارك تستحق<br>أن تتحول إلى <span>واقع.</span></h1>
+      <p class="lead">أنا أحمد فوزي. هنا هتقدر تتعرف عليّ، تشوف الخدمات والأعمال، وتتواصل معايا بسهولة لتنفيذ فكرتك القادمة.</p>
+      <div class="actions"><a class="btn primary" href="#services">اكتشف الخدمات</a><a class="btn" href="#contact">تواصل معي</a></div>
+    </div>
+    <div class="visual" aria-label="تصميم تجريدي للموقع"><div class="orb">AF</div></div>
+  </div>
+
+  <section id="about">
+    <div class="wrap about">
+      <div class="about-label"><strong>AHMED<br>FAWZY</strong><p>الإبداع يبدأ بخطوة.</p></div>
+      <div class="about-copy"><div class="section-head"><small>نبذة عني</small><h2>خلينا نتعرف على بعض</h2></div>
+        <p>أنا أحمد فوزي، وبستخدم المساحة دي للتعريف بنفسي وعرض الخدمات والأعمال. هدفي إن كل فكرة يكون ليها عرض واضح وتجربة بسيطة وسهلة للعميل. تقدر تتواصل معايا لمناقشة مشروعك أو الاستفسار عن التفاصيل.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head"><small>إيه اللي بقدمه؟</small><h2>الخدمات</h2><p class="sub">دي أقسام مبدئية قابلة للتعديل حسب الخدمات الفعلية اللي بتقدمها.</p></div>
+      <div class="grid">
+        <article class="card"><div class="icon">✦</div><h3>صناعة المحتوى</h3><p>أفكار وتنظيم محتوى مناسب لمنصات التواصل الاجتماعي والفيديوهات القصيرة.</p></article>
+        <article class="card"><div class="icon">▧</div><h3>تصميمات إبداعية</h3><p>عرض تصميمات ومشروعات بصرية في مكان واحد بشكل مرتب وواضح.</p></article>
+        <article class="card"><div class="icon">↗</div><h3>تطوير الأفكار</h3><p>تحويل الفكرة إلى تصور واضح وخطوات عملية لعرضها على الجمهور أو العملاء.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="section-head"><small>نماذج من الشغل</small><h2>الأعمال والمشروعات</h2></div>
+      <div class="work-note">مكان مخصص لإضافة صور أعمالك، روابط الفيديوهات، ومشروعاتك السابقة. استبدل هذا النص بأمثلة حقيقية من شغلك قبل نشر الموقع للعملاء.</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap contact">
+      <div><div class="section-head"><small>خلينا نتكلم</small><h2>عندك فكرة؟</h2><p class="sub">ابعتلي رسالة وخلينا نبدأ نناقش التفاصيل.</p></div></div>
+      <div class="contact-box"><h3>تواصل معي</h3><p>أضف وسيلة التواصل المناسبة ليك عشان العملاء يقدروا يوصلوا لك مباشرة.</p>
+        <div class="actions"><a class="btn primary" href="mailto:hello@example.com">راسلني بالإيميل</a><a class="btn" href="#home">العودة للأعلى ↑</a></div>
+        <p style="font-size:.85rem">ملاحظة: غيّر hello@example.com إلى بريدك الحقيقي، وأضف رقم واتساب أو حساباتك قبل نشر الموقع.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer-row"><span>© <span id="year">2026</span> Ahmed Fawzy. جميع الحقوق محفوظة.</span><span>صُمم ببساطة، عشان فكرتك تكون هي الأساس.</span></div></footer>
+</body>
+</html>
